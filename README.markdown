@@ -130,11 +130,3 @@ InsightFlow is a FastAPI-based application with an AI-powered agentic workflow d
 ## Contributing
 
 Contributions are welcome! Please submit a pull request or open an issue to discuss changes.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-## Contact
-
-For questions or feedback, please reach out to the project maintainers.
