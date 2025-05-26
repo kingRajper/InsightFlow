@@ -1,0 +1,322 @@
+2025-05-27 01:45:22,001 - INFO - Received query: Extract text from image
+2025-05-27 01:45:22,005 - INFO - Image uploaded: uploads/531a37d6-476e-41f4-88e6-4c8ae22995dc.png
+2025-05-27 01:45:22,006 - INFO - Entering assistant node
+2025-05-27 01:45:23,623 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 01:45:23,673 - INFO - LLM response received
+2025-05-27 01:45:23,673 - INFO - Calling extract_text with image_path: uploads/531a37d6-476e-41f4-88e6-4c8ae22995dc.png
+2025-05-27 01:45:31,883 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 01:45:31,883 - INFO - Text extracted successfully
+2025-05-27 01:45:31,931 - INFO - Entering assistant node
+2025-05-27 01:45:34,590 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 01:45:34,606 - INFO - LLM response received
+2025-05-27 01:45:34,606 - INFO - Graph execution completed
+2025-05-27 01:46:41,194 - INFO - Received query: Divide 6790 by 5
+2025-05-27 01:46:41,198 - INFO - Entering assistant node
+2025-05-27 01:46:42,786 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 01:46:42,786 - INFO - LLM response received
+2025-05-27 01:46:42,801 - INFO - Calling divide with a=6790, b=5
+2025-05-27 01:46:42,801 - INFO - Entering assistant node
+2025-05-27 01:46:43,736 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 01:46:43,736 - INFO - LLM response received
+2025-05-27 01:46:43,749 - INFO - Graph execution completed
+2025-05-27 02:06:34,819 - INFO - Received query: how many patients have dieabeties?
+2025-05-27 02:06:34,821 - INFO - CSV uploaded: uploads/95c77e9f-3736-4357-a0b8-3bc784e48f8e.csv
+2025-05-27 02:06:34,831 - INFO - Entering assistant node
+2025-05-27 02:06:36,483 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:06:36,539 - INFO - LLM response received
+2025-05-27 02:06:36,545 - INFO - Calling analyze_csv with file_path: uploads/95c77e9f-3736-4357-a0b8-3bc784e48f8e.csv, query: count of patients with diabetes
+2025-05-27 02:06:36,649 - INFO - Entering assistant node
+2025-05-27 02:06:38,085 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:06:38,090 - INFO - LLM response received
+2025-05-27 02:06:38,095 - INFO - Graph execution completed
+2025-05-27 02:07:14,155 - INFO - Received query: yes diabetes_status
+2025-05-27 02:07:14,159 - INFO - Entering assistant node
+2025-05-27 02:07:15,300 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:07:15,304 - INFO - LLM response received
+2025-05-27 02:07:15,307 - INFO - Graph execution completed
+2025-05-27 02:11:43,076 - INFO - Received query: what is in the image
+2025-05-27 02:11:43,077 - INFO - Image uploaded: uploads/5b3cde46-7018-46a1-9488-cd2fb6a628c2.png
+2025-05-27 02:11:43,081 - INFO - Entering assistant node
+2025-05-27 02:11:44,889 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:11:44,893 - INFO - LLM response received
+2025-05-27 02:11:44,899 - INFO - Calling extract_text with image_path: uploads/5b3cde46-7018-46a1-9488-cd2fb6a628c2.png
+2025-05-27 02:11:57,591 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:11:57,596 - INFO - Text extracted successfully
+2025-05-27 02:11:57,596 - INFO - Entering assistant node
+2025-05-27 02:12:00,406 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:12:00,409 - INFO - LLM response received
+2025-05-27 02:12:00,409 - INFO - Graph execution completed
+2025-05-27 02:12:00,413 - INFO - Received query: what is in the image
+2025-05-27 02:12:00,419 - INFO - Image uploaded: uploads/a8613e10-abdb-411d-9732-a1d703cfb30b.png
+2025-05-27 02:12:00,430 - INFO - Entering assistant node
+2025-05-27 02:12:01,609 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:12:01,610 - INFO - LLM response received
+2025-05-27 02:12:01,612 - INFO - Calling extract_text with image_path: uploads/a8613e10-abdb-411d-9732-a1d703cfb30b.png
+2025-05-27 02:12:08,908 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:12:08,911 - INFO - Text extracted successfully
+2025-05-27 02:12:08,913 - INFO - Entering assistant node
+2025-05-27 02:12:13,774 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:12:13,781 - INFO - LLM response received
+2025-05-27 02:12:13,782 - INFO - Graph execution completed
+2025-05-27 02:12:13,786 - INFO - Received query: what is in the image
+2025-05-27 02:12:13,803 - INFO - Image uploaded: uploads/4fc19951-8115-48c2-9cd5-8801bb668a7a.png
+2025-05-27 02:12:13,825 - INFO - Entering assistant node
+2025-05-27 02:12:15,486 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:12:15,496 - INFO - LLM response received
+2025-05-27 02:12:15,508 - INFO - Calling extract_text with image_path: uploads/4fc19951-8115-48c2-9cd5-8801bb668a7a.png
+2025-05-27 02:12:23,231 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:12:23,234 - INFO - Text extracted successfully
+2025-05-27 02:12:23,235 - INFO - Entering assistant node
+2025-05-27 02:12:25,001 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:12:25,021 - INFO - LLM response received
+2025-05-27 02:12:25,136 - INFO - Graph execution completed
+2025-05-27 02:12:25,221 - INFO - Received query: divide 5445345 by 3
+2025-05-27 02:12:25,341 - INFO - Entering assistant node
+2025-05-27 02:12:26,218 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:12:26,227 - INFO - LLM response received
+2025-05-27 02:12:26,234 - INFO - Calling divide with a=5445345, b=3
+2025-05-27 02:12:26,236 - INFO - Entering assistant node
+2025-05-27 02:12:27,131 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:12:27,135 - INFO - LLM response received
+2025-05-27 02:12:27,153 - INFO - Graph execution completed
+2025-05-27 02:17:50,388 - INFO - Received query: what is in this image?
+2025-05-27 02:17:50,388 - INFO - Image uploaded: uploads/44c3dbf6-b856-4d7b-a360-4f43c05075fc.png
+2025-05-27 02:17:50,405 - INFO - Entering assistant node
+2025-05-27 02:17:52,777 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:17:52,824 - INFO - LLM response received
+2025-05-27 02:17:52,829 - INFO - Calling extract_text with image_path: uploads/44c3dbf6-b856-4d7b-a360-4f43c05075fc.png
+2025-05-27 02:18:04,927 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:18:04,932 - INFO - Text extracted successfully
+2025-05-27 02:18:04,941 - INFO - Entering assistant node
+2025-05-27 02:18:07,688 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:18:07,698 - INFO - LLM response received
+2025-05-27 02:18:07,699 - INFO - Graph execution completed
+2025-05-27 02:19:04,099 - INFO - Received query: what this file contains? how many columns it has would you provide me summary of it?
+2025-05-27 02:19:04,105 - INFO - CSV uploaded: uploads/5f32d71d-27cb-4578-a58d-18b5b9975303.csv
+2025-05-27 02:19:04,112 - INFO - Entering assistant node
+2025-05-27 02:19:05,555 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:19:05,560 - INFO - LLM response received
+2025-05-27 02:19:05,573 - INFO - Calling analyze_csv with file_path: uploads/5f32d71d-27cb-4578-a58d-18b5b9975303.csv, query: summarize data and count number of columns
+2025-05-27 02:19:05,626 - INFO - Entering assistant node
+2025-05-27 02:19:08,455 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:19:08,459 - INFO - LLM response received
+2025-05-27 02:19:08,460 - INFO - Graph execution completed
+2025-05-27 02:19:08,468 - INFO - Received query: what this file contains? how many columns it has would you provide me summary of it?
+2025-05-27 02:19:08,473 - INFO - CSV uploaded: uploads/4f3bcae7-f25e-4e45-b906-de6d90796a1f.csv
+2025-05-27 02:19:08,477 - INFO - Entering assistant node
+2025-05-27 02:19:10,799 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:19:10,802 - INFO - LLM response received
+2025-05-27 02:19:10,807 - INFO - Calling analyze_csv with file_path: uploads/4f3bcae7-f25e-4e45-b906-de6d90796a1f.csv, query: summarize data
+2025-05-27 02:19:10,846 - INFO - Entering assistant node
+2025-05-27 02:19:14,755 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:19:14,757 - INFO - LLM response received
+2025-05-27 02:19:14,759 - INFO - Graph execution completed
+2025-05-27 02:19:53,306 - INFO - Received query: what is average salary of the employes?
+2025-05-27 02:19:53,315 - INFO - Entering assistant node
+2025-05-27 02:19:55,070 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:19:55,076 - INFO - LLM response received
+2025-05-27 02:19:55,082 - INFO - Calling analyze_csv with file_path: uploads/4f3bcae7-f25e-4e45-b906-de6d90796a1f.csv, query: average of salary column
+2025-05-27 02:19:55,092 - INFO - Entering assistant node
+2025-05-27 02:19:57,724 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:19:57,728 - INFO - LLM response received
+2025-05-27 02:19:57,729 - INFO - Graph execution completed
+2025-05-27 02:20:37,110 - INFO - Received query: would you give me the average of "Salary" column?
+2025-05-27 02:20:37,111 - INFO - Entering assistant node
+2025-05-27 02:20:38,794 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:20:38,799 - INFO - LLM response received
+2025-05-27 02:20:38,807 - INFO - Calling analyze_csv with file_path: uploads/4f3bcae7-f25e-4e45-b906-de6d90796a1f.csv, query: average of column Salary
+2025-05-27 02:20:38,813 - INFO - Entering assistant node
+2025-05-27 02:20:39,931 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:20:39,936 - INFO - LLM response received
+2025-05-27 02:20:39,938 - INFO - Graph execution completed
+2025-05-27 02:35:19,287 - ERROR - Failed to connect to Redis: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-05-27 02:40:32,137 - INFO - Received query: what this data is all about?
+2025-05-27 02:40:32,160 - INFO - CSV uploaded: uploads/1e0938c5-587a-4c53-8629-53fe2e8ef706.csv
+2025-05-27 02:40:32,168 - INFO - Entering assistant node
+2025-05-27 02:40:33,987 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:40:34,018 - INFO - LLM response received
+2025-05-27 02:40:34,023 - INFO - Calling analyze_csv with file_path: uploads/1e0938c5-587a-4c53-8629-53fe2e8ef706.csv, query: summarize data
+2025-05-27 02:40:34,040 - INFO - Entering assistant node
+2025-05-27 02:40:37,576 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:40:37,581 - INFO - LLM response received
+2025-05-27 02:40:37,585 - INFO - Graph execution completed
+2025-05-27 02:40:54,730 - INFO - Deleted CSV file: uploads/1e0938c5-587a-4c53-8629-53fe2e8ef706.csv
+2025-05-27 02:40:54,731 - INFO - Cleared CSV for session: 6ecbae64-9719-4ed8-b533-fa04104d5802
+2025-05-27 02:41:18,465 - INFO - Received query: what is in this image?
+2025-05-27 02:41:18,467 - ERROR - Unsupported file type: webp
+2025-05-27 02:41:18,468 - ERROR - Error saving uploaded file: 400: Unsupported file type. Use PNG, JPEG, or CSV
+2025-05-27 02:41:49,413 - INFO - Received query: what is in this image?
+2025-05-27 02:41:49,415 - INFO - Image uploaded: uploads/f54c61b0-d118-4f63-91c4-2d91483ea089.jpeg
+2025-05-27 02:41:49,417 - INFO - Entering assistant node
+2025-05-27 02:41:50,546 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:41:50,547 - INFO - LLM response received
+2025-05-27 02:41:50,549 - INFO - Calling extract_text with image_path: uploads/f54c61b0-d118-4f63-91c4-2d91483ea089.jpeg
+2025-05-27 02:42:02,043 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:42:02,045 - INFO - Text extracted successfully
+2025-05-27 02:42:02,046 - INFO - Entering assistant node
+2025-05-27 02:42:03,940 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:42:03,949 - INFO - LLM response received
+2025-05-27 02:42:03,951 - INFO - Graph execution completed
+2025-05-27 02:47:41,167 - INFO - Received query: divide 6 by 2
+2025-05-27 02:47:41,171 - INFO - Entering assistant node
+2025-05-27 02:47:52,320 - INFO - Retrying request to /chat/completions in 0.407114 seconds
+2025-05-27 02:47:52,730 - INFO - Retrying request to /chat/completions in 0.907428 seconds
+2025-05-27 02:47:53,640 - ERROR - Error in assistant node: Connection error.
+2025-05-27 02:47:53,641 - INFO - Graph execution completed
+2025-05-27 02:47:53,642 - ERROR - Graph execution failed: 'HumanMessage' object has no attribute 'get'
+2025-05-27 02:49:12,137 - INFO - Received query: divide 8 by 2
+2025-05-27 02:49:12,139 - INFO - Entering assistant node
+2025-05-27 02:49:13,281 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:49:13,293 - INFO - LLM response received
+2025-05-27 02:49:13,298 - INFO - Calling divide with a=8, b=2
+2025-05-27 02:49:13,300 - INFO - Entering assistant node
+2025-05-27 02:49:14,031 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:49:14,035 - INFO - LLM response received
+2025-05-27 02:49:14,035 - INFO - Graph execution completed
+2025-05-27 02:49:14,037 - ERROR - Graph execution failed: 'HumanMessage' object has no attribute 'get'
+2025-05-27 02:49:38,394 - INFO - Received query: what is in this image
+2025-05-27 02:49:38,395 - INFO - Image uploaded: uploads/fb4cdb95-24b8-48cd-85b6-850370102c0c.png
+2025-05-27 02:49:38,398 - INFO - Entering assistant node
+2025-05-27 02:49:39,722 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:49:39,739 - INFO - LLM response received
+2025-05-27 02:49:39,751 - INFO - Calling extract_text with image_path: uploads/fb4cdb95-24b8-48cd-85b6-850370102c0c.png
+2025-05-27 02:49:48,944 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:49:48,946 - INFO - Text extracted successfully
+2025-05-27 02:49:48,947 - INFO - Entering assistant node
+2025-05-27 02:49:51,332 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:49:51,337 - INFO - LLM response received
+2025-05-27 02:49:51,340 - INFO - Graph execution completed
+2025-05-27 02:49:51,341 - ERROR - Graph execution failed: 'HumanMessage' object has no attribute 'get'
+2025-05-27 02:50:38,640 - INFO - Received query: divide 8 by 2
+2025-05-27 02:50:38,647 - INFO - Entering assistant node
+2025-05-27 02:50:41,528 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:50:41,561 - INFO - LLM response received
+2025-05-27 02:50:41,563 - INFO - Calling divide with a=8, b=2
+2025-05-27 02:50:41,565 - INFO - Entering assistant node
+2025-05-27 02:50:42,360 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:50:42,375 - INFO - LLM response received
+2025-05-27 02:50:42,376 - INFO - Graph execution completed
+2025-05-27 02:50:42,387 - ERROR - Graph execution failed: 'HumanMessage' object has no attribute 'get'
+2025-05-27 02:54:58,583 - INFO - Received query: divide 6 by 2
+2025-05-27 02:54:58,607 - INFO - Entering assistant node
+2025-05-27 02:54:59,711 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:54:59,727 - INFO - LLM response received
+2025-05-27 02:54:59,730 - INFO - Calling divide with a=6, b=2
+2025-05-27 02:54:59,731 - INFO - Entering assistant node
+2025-05-27 02:55:00,427 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:55:00,430 - INFO - LLM response received
+2025-05-27 02:55:00,433 - INFO - Graph output: {'input_file': None, 'input_csv': None, 'messages': [HumanMessage(content='divide 6 by 2', additional_kwargs={}, response_metadata={}, id='e4229373-9342-4acb-b113-ee52649de8ed'), AIMessage(content='', additional_kwargs={'tool_calls': [{'id': 'call_gmm4DFDZihQRe4urWGBT1nxN', 'function': {'arguments': '{"a":6,"b":2}', 'name': 'divide'}, 'type': 'function'}], 'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 17, 'prompt_tokens': 244, 'total_tokens': 261, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_07871e2ad8', 'id': 'chatcmpl-Bba4aQoDCjtBgMwdJpcOKY4dw8PsJ', 'service_tier': 'default', 'finish_reason': 'tool_calls', 'logprobs': None}, id='run--da528404-34cf-4f28-81a2-9a67b8aedab9-0', tool_calls=[{'name': 'divide', 'args': {'a': 6, 'b': 2}, 'id': 'call_gmm4DFDZihQRe4urWGBT1nxN', 'type': 'tool_call'}], usage_metadata={'input_tokens': 244, 'output_tokens': 17, 'total_tokens': 261, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}), ToolMessage(content='3.0', name='divide', id='e488b0aa-e9a4-48d1-b869-512bced3c3be', tool_call_id='call_gmm4DFDZihQRe4urWGBT1nxN'), AIMessage(content='The result of dividing 6 by 2 is 3.0.', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 16, 'prompt_tokens': 271, 'total_tokens': 287, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_07871e2ad8', 'id': 'chatcmpl-Bba4bG6i9ajXXhYaGnTwt791X7Eti', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None}, id='run--05bced7b-9b28-44f4-b2eb-f49b877f9880-0', usage_metadata={'input_tokens': 271, 'output_tokens': 16, 'total_tokens': 287, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}})]}
+2025-05-27 02:55:00,442 - INFO - Extracted response: The result of dividing 6 by 2 is 3.0.
+2025-05-27 02:55:00,459 - INFO - Deleted old file: uploads\531a37d6-476e-41f4-88e6-4c8ae22995dc.png
+2025-05-27 02:55:20,370 - INFO - Received query: what is in this image?
+2025-05-27 02:55:20,372 - INFO - Image uploaded: uploads/1d3b0afe-4032-4a5d-bf84-ed7fcccce040.png
+2025-05-27 02:55:20,377 - INFO - Entering assistant node
+2025-05-27 02:55:21,548 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:55:21,552 - INFO - LLM response received
+2025-05-27 02:55:21,556 - INFO - Calling extract_text with image_path: uploads/1d3b0afe-4032-4a5d-bf84-ed7fcccce040.png
+2025-05-27 02:55:25,602 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:55:25,605 - INFO - Text extracted successfully
+2025-05-27 02:55:25,608 - INFO - Entering assistant node
+2025-05-27 02:55:26,852 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:55:26,857 - INFO - LLM response received
+2025-05-27 02:55:26,863 - INFO - Graph output: {'input_file': 'uploads/1d3b0afe-4032-4a5d-bf84-ed7fcccce040.png', 'input_csv': None, 'messages': [HumanMessage(content='divide 6 by 2', additional_kwargs={}, response_metadata={}, id='7e00bfea-d1d9-476b-8634-88046d1cc6b9'), AIMessage(content='', additional_kwargs={}, response_metadata={}, id='a4af54e1-4ff0-4fca-b925-6c99a43c6080'), AIMessage(content='3.0', additional_kwargs={}, response_metadata={}, id='f4ffca31-d5d4-415b-bc85-91025517bc57'), AIMessage(content='The result of dividing 6 by 2 is 3.0.', additional_kwargs={}, response_metadata={}, id='960b51aa-095a-4eb1-8119-010788209aa8'), HumanMessage(content='what is in this image?', additional_kwargs={}, response_metadata={}, id='af5312db-dbdb-4fd8-87c2-873c2cf3d5ae'), AIMessage(content='', additional_kwargs={'tool_calls': [{'id': 'call_AywEIElO6fm4khv8LcBdTitP', 'function': {'arguments': '{"image_path":"uploads/1d3b0afe-4032-4a5d-bf84-ed7fcccce040.png"}', 'name': 'extract_text'}, 'type': 'function'}], 'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 40, 'prompt_tokens': 309, 'total_tokens': 349, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_07871e2ad8', 'id': 'chatcmpl-Bba4wD3SbHmVsMzLHyvYisaNRg6uK', 'service_tier': 'default', 'finish_reason': 'tool_calls', 'logprobs': None}, id='run--659a83c8-6055-470e-85e4-dbbecb622058-0', tool_calls=[{'name': 'extract_text', 'args': {'image_path': 'uploads/1d3b0afe-4032-4a5d-bf84-ed7fcccce040.png'}, 'id': 'call_AywEIElO6fm4khv8LcBdTitP', 'type': 'tool_call'}], usage_metadata={'input_tokens': 309, 'output_tokens': 40, 'total_tokens': 349, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}), ToolMessage(content="Agent Objective Definition\n\nAgent Objectives\nCore purpose of the agent\n\nScope Definition\nBoundaries of the agent's capabilities\n\nActionable Tasks\nSpecific tasks to achieve objectives\n\nMade with by Napkin", name='extract_text', id='8af2f83c-7edd-4430-82ee-c447c31724ea', tool_call_id='call_AywEIElO6fm4khv8LcBdTitP'), AIMessage(content="The image contains the following text:\n\n- **Agent Objective Definition**\n  - Agent Objectives: Core purpose of the agent\n  - Scope Definition: Boundaries of the agent's capabilities\n  - Actionable Tasks: Specific tasks to achieve objectives\n  - Made with by Napkin", additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 57, 'prompt_tokens': 396, 'total_tokens': 453, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_07871e2ad8', 'id': 'chatcmpl-Bba513iTWpD3N2uLUUmldWXSWx1Du', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None}, id='run--b15bc46c-31bc-4e60-8699-79af610455f6-0', usage_metadata={'input_tokens': 396, 'output_tokens': 57, 'total_tokens': 453, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}})]}
+2025-05-27 02:55:26,888 - INFO - Extracted response: The image contains the following text:
+
+- **Agent Objective Definition**
+  - Agent Objectives: Core purpose of the agent
+  - Scope Definition: Boundaries of the agent's capabilities
+  - Actionable Tasks: Specific tasks to achieve objectives
+  - Made with by Napkin
+2025-05-27 02:55:48,161 - INFO - Received query: what is in this file?
+2025-05-27 02:55:48,162 - ERROR - File too large: Phishing_Email.csv
+2025-05-27 02:56:08,657 - INFO - Received query: what how rows in this file?
+2025-05-27 02:56:08,707 - INFO - CSV uploaded: uploads/386243a6-1b2f-4eb5-8416-8d4a40ee9d6b.csv
+2025-05-27 02:56:08,710 - INFO - Entering assistant node
+2025-05-27 02:56:10,904 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:56:10,926 - INFO - LLM response received
+2025-05-27 02:56:10,929 - INFO - Calling analyze_csv with file_path: uploads/386243a6-1b2f-4eb5-8416-8d4a40ee9d6b.csv, query: count the number of rows
+2025-05-27 02:56:10,933 - INFO - Entering assistant node
+2025-05-27 02:56:12,749 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:56:12,751 - INFO - LLM response received
+2025-05-27 02:56:12,754 - INFO - Graph output: {'input_file': None, 'input_csv': 'uploads/386243a6-1b2f-4eb5-8416-8d4a40ee9d6b.csv', 'messages': [HumanMessage(content='divide 6 by 2', additional_kwargs={}, response_metadata={}, id='b93b7df1-5ce2-4409-bd4b-de6678130f24'), AIMessage(content='', additional_kwargs={}, response_metadata={}, id='cd5e3a49-39ee-4a25-b83f-52d73ea9ae5d'), AIMessage(content='3.0', additional_kwargs={}, response_metadata={}, id='8f147822-2129-467c-9805-e16f9181a83f'), AIMessage(content='The result of dividing 6 by 2 is 3.0.', additional_kwargs={}, response_metadata={}, id='2ebb37ee-1473-4923-b880-39624e45a389'), HumanMessage(content='what is in this image?', additional_kwargs={}, response_metadata={}, id='b501f7f1-84fc-4fc6-a822-2799e89f3936'), AIMessage(content='', additional_kwargs={}, response_metadata={}, id='95373a1f-b909-4e9f-beb2-4b2e601966e7'), AIMessage(content="Agent Objective Definition\n\nAgent Objectives\nCore purpose of the agent\n\nScope Definition\nBoundaries of the agent's capabilities\n\nActionable Tasks\nSpecific tasks to achieve objectives\n\nMade with by Napkin", additional_kwargs={}, response_metadata={}, id='9ecb70cd-7784-41e2-8579-30d5fc41c1ab'), AIMessage(content="The image contains the following text:\n\n- **Agent Objective Definition**\n  - Agent Objectives: Core purpose of the agent\n  - Scope Definition: Boundaries of the agent's capabilities\n  - Actionable Tasks: Specific tasks to achieve objectives\n  - Made with by Napkin", additional_kwargs={}, response_metadata={}, id='eb7c9bf9-57d2-44da-971e-edf4f0cded0e'), HumanMessage(content='what how rows in this file?', additional_kwargs={}, response_metadata={}, id='bedbb7a5-43cf-460f-8077-83709b882c0d'), AIMessage(content='', additional_kwargs={'tool_calls': [{'id': 'call_6X8u2jta7HjcsT8vyxFROSJe', 'function': {'arguments': '{"file_path":"uploads/386243a6-1b2f-4eb5-8416-8d4a40ee9d6b.csv","query":"count the number of rows"}', 'name': 'analyze_csv'}, 'type': 'function'}], 'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 53, 'prompt_tokens': 431, 'total_tokens': 484, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_a288987b44', 'id': 'chatcmpl-Bba5jgCN3StoUrwVETe6BhtCs3Z2d', 'service_tier': 'default', 'finish_reason': 'tool_calls', 'logprobs': None}, id='run--ec5a39ed-738d-45e5-a84e-f0a5ab09e277-0', tool_calls=[{'name': 'analyze_csv', 'args': {'file_path': 'uploads/386243a6-1b2f-4eb5-8416-8d4a40ee9d6b.csv', 'query': 'count the number of rows'}, 'id': 'call_6X8u2jta7HjcsT8vyxFROSJe', 'type': 'tool_call'}], usage_metadata={'input_tokens': 431, 'output_tokens': 53, 'total_tokens': 484, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}), ToolMessage(content="Error: Unsupported CSV query. Try 'average of column X' or 'summarize data'", name='analyze_csv', id='54b37f73-2893-47b3-a971-32f6ac77ea0f', tool_call_id='call_6X8u2jta7HjcsT8vyxFROSJe'), AIMessage(content='I encountered an error while trying to count the rows directly. If you need, I can summarize the data or perform other specific queries like calculating averages. Alternatively, if you want, I can help in another way to identify the number of rows. Let me know how you would like to proceed!', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 60, 'prompt_tokens': 513, 'total_tokens': 573, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_a288987b44', 'id': 'chatcmpl-Bba5kXFe13dN9MQnSjPei2WgCi7fm', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None}, id='run--4da4de61-e2ce-4d07-8efe-ece14151de1d-0', usage_metadata={'input_tokens': 513, 'output_tokens': 60, 'total_tokens': 573, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}})]}
+2025-05-27 02:56:12,764 - INFO - Extracted response: I encountered an error while trying to count the rows directly. If you need, I can summarize the data or perform other specific queries like calculating averages. Alternatively, if you want, I can help in another way to identify the number of rows. Let me know how you would like to proceed!
+2025-05-27 02:56:31,587 - INFO - Received query: yes please summarize it
+2025-05-27 02:56:31,597 - INFO - Entering assistant node
+2025-05-27 02:56:32,669 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:56:32,674 - INFO - LLM response received
+2025-05-27 02:56:32,678 - INFO - Calling analyze_csv with file_path: uploads/386243a6-1b2f-4eb5-8416-8d4a40ee9d6b.csv, query: summarize data
+2025-05-27 02:56:32,718 - INFO - Entering assistant node
+2025-05-27 02:56:39,014 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-27 02:56:39,018 - INFO - LLM response received
+2025-05-27 02:56:39,026 - INFO - Graph output: {'input_file': None, 'input_csv': 'uploads/386243a6-1b2f-4eb5-8416-8d4a40ee9d6b.csv', 'messages': [HumanMessage(content='divide 6 by 2', additional_kwargs={}, response_metadata={}, id='a87c6d1a-0d31-470f-acf3-f9af5e0459aa'), AIMessage(content='', additional_kwargs={}, response_metadata={}, id='b773c37f-2787-4821-b13d-655cae3aa499'), AIMessage(content='3.0', additional_kwargs={}, response_metadata={}, id='1a336bcf-6c04-4cde-901b-cc345d802ef0'), AIMessage(content='The result of dividing 6 by 2 is 3.0.', additional_kwargs={}, response_metadata={}, id='9e5789c2-772b-4426-91cb-11ffce1a8fc8'), HumanMessage(content='what is in this image?', additional_kwargs={}, response_metadata={}, id='a2bf7a0c-8f0e-43c6-8dc0-efd337b79a88'), AIMessage(content='', additional_kwargs={}, response_metadata={}, id='8e0ffab9-bca9-40d8-b414-80636e062eba'), AIMessage(content="Agent Objective Definition\n\nAgent Objectives\nCore purpose of the agent\n\nScope Definition\nBoundaries of the agent's capabilities\n\nActionable Tasks\nSpecific tasks to achieve objectives\n\nMade with by Napkin", additional_kwargs={}, response_metadata={}, id='5a9f1479-8679-4dd3-81a2-e76da894ae7e'), AIMessage(content="The image contains the following text:\n\n- **Agent Objective Definition**\n  - Agent Objectives: Core purpose of the agent\n  - Scope Definition: Boundaries of the agent's capabilities\n  - Actionable Tasks: Specific tasks to achieve objectives\n  - Made with by Napkin", additional_kwargs={}, response_metadata={}, id='1de18f9a-0e7f-4fe8-8082-cb801e93e406'), HumanMessage(content='what how rows in this file?', additional_kwargs={}, response_metadata={}, id='aaa69c72-7800-4389-bbb6-788e073668b1'), AIMessage(content='', additional_kwargs={}, response_metadata={}, id='bcade7fd-06d2-447a-9c3e-f87117c45930'), AIMessage(content="Error: Unsupported CSV query. Try 'average of column X' or 'summarize data'", additional_kwargs={}, response_metadata={}, id='dd309796-d816-420f-98fd-37d3a6b4b1ae'), AIMessage(content='I encountered an error while trying to count the rows directly. If you need, I can summarize the data or perform other specific queries like calculating averages. Alternatively, if you want, I can help in another way to identify the number of rows. Let me know how you would like to proceed!', additional_kwargs={}, response_metadata={}, id='b9f58772-3277-4ae9-9b3a-6890a50da9b6'), HumanMessage(content='yes please summarize it', additional_kwargs={}, response_metadata={}, id='298e542b-3a91-41c5-9573-d85ab8454d63'), AIMessage(content='', additional_kwargs={'tool_calls': [{'id': 'call_mjYMQ60LhhsJGOsqh4GkjSYs', 'function': {'arguments': '{"file_path":"uploads/386243a6-1b2f-4eb5-8416-8d4a40ee9d6b.csv","query":"summarize data"}', 'name': 'analyze_csv'}, 'type': 'function'}], 'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 52, 'prompt_tokens': 530, 'total_tokens': 582, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_a288987b44', 'id': 'chatcmpl-Bba651mIY8GIoeVQDWqJNN71kG1at', 'service_tier': 'default', 'finish_reason': 'tool_calls', 'logprobs': None}, id='run--17cc03d2-715e-48fa-b55f-b458b32c7ee8-0', tool_calls=[{'name': 'analyze_csv', 'args': {'file_path': 'uploads/386243a6-1b2f-4eb5-8416-8d4a40ee9d6b.csv', 'query': 'summarize data'}, 'id': 'call_mjYMQ60LhhsJGOsqh4GkjSYs', 'type': 'tool_call'}], usage_metadata={'input_tokens': 530, 'output_tokens': 52, 'total_tokens': 582, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}}), ToolMessage(content='Data Summary:\n       Pregnancies     Glucose  BloodPressure  SkinThickness     Insulin         BMI  DiabetesPedigreeFunction         Age     Outcome\ncount   768.000000  768.000000     768.000000     768.000000  768.000000  768.000000                768.000000  768.000000  768.000000\nmean      3.845052  120.894531      69.105469      20.536458   79.799479   31.992578                  0.471876   33.240885    0.348958\nstd       3.369578   31.972618      19.355807      15.952218  115.244002    7.884160                  0.331329   11.760232    0.476951\nmin       0.000000    0.000000       0.000000       0.000000    0.000000    0.000000                  0.078000   21.000000    0.000000\n25%       1.000000   99.000000      62.000000       0.000000    0.000000   27.300000                  0.243750   24.000000    0.000000\n50%       3.000000  117.000000      72.000000      23.000000   30.500000   32.000000                  0.372500   29.000000    0.000000\n75%       6.000000  140.250000      80.000000      32.000000  127.250000   36.600000                  0.626250   41.000000    1.000000\nmax      17.000000  199.000000     122.000000      99.000000  846.000000   67.100000                  2.420000   81.000000    1.000000', name='analyze_csv', id='71418c90-0874-4458-8522-e98fcffe8096', tool_call_id='call_mjYMQ60LhhsJGOsqh4GkjSYs'), AIMessage(content='Here is a summary of the data in the CSV file:\n\n- **Count**: 768 entries for each column.\n- **Mean Values**:\n  - Pregnancies: 3.85\n  - Glucose: 120.89\n  - Blood Pressure: 69.11\n  - Skin Thickness: 20.54\n  - Insulin: 79.80\n  - BMI: 31.99\n  - Diabetes Pedigree Function: 0.472\n  - Age: 33.24\n  - Outcome: 0.35\n\n- **Standard Deviations**:\n  - Pregnancies: 3.37\n  - Glucose: 31.97\n  - Blood Pressure: 19.36\n  - Skin Thickness: 15.95\n  - Insulin: 115.24\n  - BMI: 7.88\n  - Diabetes Pedigree Function: 0.33\n  - Age: 11.76\n  - Outcome: 0.48\n\n- **Ranges**:\n  - Pregnancies: 0 to 17\n  - Glucose: 0 to 199\n  - Blood Pressure: 0 to 122\n  - Skin Thickness: 0 to 99\n  - Insulin: 0 to 846\n  - BMI: 0 to 67.1\n  - Diabetes Pedigree Function: 0.078 to 2.42\n  - Age: 21 to 81\n  - Outcome: 0 to 1\n\n- **Quartiles**:\n  - 25th Percentile:\n    - Pregnancies: 1\n    - Glucose: 99\n    - Blood Pressure: 62\n    - Skin Thickness: 0\n    - Insulin: 0\n    - BMI: 27.3\n    - Diabetes Pedigree Function: 0.24\n    - Age: 24\n    - Outcome: 0\n\n  - 50th Percentile (Median):\n    - Pregnancies: 3\n    - Glucose: 117\n    - Blood Pressure: 72\n    - Skin Thickness: 23\n    - Insulin: 30.5\n    - BMI: 32\n    - Diabetes Pedigree Function: 0.37\n    - Age: 29\n    - Outcome: 0\n\n  - 75th Percentile:\n    - Pregnancies: 6\n    - Glucose: 140.25\n    - Blood Pressure: 80\n    - Skin Thickness: 32\n    - Insulin: 127.25\n    - BMI: 36.6\n    - Diabetes Pedigree Function: 0.63\n    - Age: 41\n    - Outcome: 1\n\nThis summary provides an overview of the dataset related to medical and health-related measurements. Please let me know if you need any further analysis!', additional_kwargs={'refusal': None}, response_metadata={'token_usage': {'completion_tokens': 625, 'prompt_tokens': 1073, 'total_tokens': 1698, 'completion_tokens_details': {'accepted_prediction_tokens': 0, 'audio_tokens': 0, 'reasoning_tokens': 0, 'rejected_prediction_tokens': 0}, 'prompt_tokens_details': {'audio_tokens': 0, 'cached_tokens': 0}}, 'model_name': 'gpt-4o-2024-08-06', 'system_fingerprint': 'fp_a288987b44', 'id': 'chatcmpl-Bba66e0CEjee8IxjwgOXhJdC79ptQ', 'service_tier': 'default', 'finish_reason': 'stop', 'logprobs': None}, id='run--f240cfd6-8220-4729-bc44-ab796ba49bc3-0', usage_metadata={'input_tokens': 1073, 'output_tokens': 625, 'total_tokens': 1698, 'input_token_details': {'audio': 0, 'cache_read': 0}, 'output_token_details': {'audio': 0, 'reasoning': 0}})]}
+2025-05-27 02:56:39,084 - INFO - Extracted response: Here is a summary of the data in the CSV file:
+
+- **Count**: 768 entries for each column.
+- **Mean Values**:
+  - Pregnancies: 3.85
+  - Glucose: 120.89
+  - Blood Pressure: 69.11
+  - Skin Thickness: 20.54
+  - Insulin: 79.80
+  - BMI: 31.99
+  - Diabetes Pedigree Function: 0.472
+  - Age: 33.24
+  - Outcome: 0.35
+
+- **Standard Deviations**:
+  - Pregnancies: 3.37
+  - Glucose: 31.97
+  - Blood Pressure: 19.36
+  - Skin Thickness: 15.95
+  - Insulin: 115.24
+  - BMI: 7.88
+  - Diabetes Pedigree Function: 0.33
+  - Age: 11.76
+  - Outcome: 0.48
+
+- **Ranges**:
+  - Pregnancies: 0 to 17
+  - Glucose: 0 to 199
+  - Blood Pressure: 0 to 122
+  - Skin Thickness: 0 to 99
+  - Insulin: 0 to 846
+  - BMI: 0 to 67.1
+  - Diabetes Pedigree Function: 0.078 to 2.42
+  - Age: 21 to 81
+  - Outcome: 0 to 1
+
+- **Quartiles**:
+  - 25th Percentile:
+    - Pregnancies: 1
+    - Glucose: 99
+    - Blood Pressure: 62
+    - Skin Thickness: 0
+    - Insulin: 0
+    - BMI: 27.3
+    - Diabetes Pedigree Function: 0.24
+    - Age: 24
+    - Outcome: 0
+
+  - 50th Percentile (Median):
+    - Pregnancies: 3
+    - Glucose: 117
+    - Blood Pressure: 72
+    - Skin Thickness: 23
+    - Insulin: 30.5
+    - BMI: 32
+    - Diabetes Pedigree Function: 0.37
+    - Age: 29
+    - Outcome: 0
+
+  - 75th Percentile:
+    - Pregnancies: 6
+    - Glucose: 140.25
+    - Blood Pressure: 80
+    - Skin Thickness: 32
+    - Insulin: 127.25
+    - BMI: 36.6
+    - Diabetes Pedigree Function: 0.63
+    - Age: 41
+    - Outcome: 1
+
+This summary provides an overview of the dataset related to medical and health-related measurements. Please let me know if you need any further analysis!

@@ -1,0 +1,8 @@
+langgraph
+langchain_openai
+dotenv
+langchain_core
+langchain_community
+fastapi[standard]
+uvicorn
+pandas
